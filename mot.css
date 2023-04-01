@@ -1,0 +1,82 @@
+/* ustawienia ogólne */
+body {
+    background-color: #FBEFEF;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* sekcja baner */
+  #baner {
+    width: 100%;
+    height: 200px;
+    background-color: #A52A2A;
+  }
+  
+  /* sekcja zawartości */
+  #zawartosc {
+    margin-left: 200px;
+  }
+  
+  /* nagłówki */
+  h1, h2, h3, h4, h5, h6 {
+    color: red;
+  }
+  
+  /* dolna ramka dla h2 */
+  h2 {
+    border-bottom: 1px solid black;
+  }
+  
+  /* czcionka */
+  ul, ol, p {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* obrazek */
+  img {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  /* sekcja menu */
+  #menu {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  /* lista w sekcji menu */
+  #menu ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* elementy listy w sekcji menu */
+  #menu li {
+    background-color: firebrick;
+    border: 1px solid #CCC;
+    font-size: 16px;
+    list-style: none;
+  }
+  
+  /* hiperłącza w sekcji menu */
+  #menu a {
+    display: block;
+    padding: 5px;
+  }
+  
+  /* hover dla hiperłącza w sekcji menu */
+  #menu a:hover {
+    background-color: red;
+  }
+  
+  /* linia hr */
+  hr {
+    border: none;
+    border-top: 3px solid red;
+    height: 3px;
+  }
+
